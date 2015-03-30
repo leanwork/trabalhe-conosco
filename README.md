@@ -40,7 +40,7 @@ Nossa rotina de trabalho é diferente da maioria das empresas e precisamos que v
 * Temos flexibilidade de horários.
 * Tenha disponibilidade para viagens. Pode ser que um dia você precise ir até a alguns de nossos clientes resolver algum problema ou participar de alguma homologação.
 
-# Ok, quero trabalhar! O que eu faço?
+# Estou interessado! O que preciso fazer?
 
 Como parte do nosso processo para conhecer melhor suas habilidades, queremos que resolva um problema de programação para assim conhecer você melhor. A seguir preparamos dois (03) problemas a serem resolvidos, escolha apenas um (01) deles.
 
