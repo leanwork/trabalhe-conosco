@@ -76,7 +76,7 @@ Por exemplo, dado o número do cartão `4408 0412 3456 7893`:
 
 Este cartão é válido.
 
-Vamos tentar mais uma, <code>4417 1234 5678 9112<code>:
+Vamos tentar mais uma, `4417 1234 5678 9112`:
 
     1. 8 4 7 2 2 2 6 4 10 6 14 8 18 1 2 2
     2. 8 + 4 + 2 + 7 + 2 + 2 + 6 + 4 + 1 + 0 + 6 + 1 + 4 + 8 + 1 + 8 + 1 + 2 + 2 = 69
