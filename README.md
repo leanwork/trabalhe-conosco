@@ -44,7 +44,7 @@ Gostarmos de usar ASP.NET MVC, Git, desenvolver usando TDD e ter uma boa de cobe
 
 Esperamos que você solucione o problema sozinho e por favor não exponha a solução na internet.
 
-### 1) Verificador de cartão de crédito
+### Problema 1: Verificador de cartão de crédito
 
 Antes de apresentar um cartão de crédito a um gateway de pagamento, é importante que façamos algumas checagens sobre o número.
 
@@ -65,25 +65,26 @@ Uma verificação comum é realizar antecipadamente a validação do tipo de car
 Todos esses tipos de cartão podem ser validados pelo algoritmo Luhn, de modo que é o segundo sistemas de verificação normalmente usado. As etapas de verificação são:
 
 1. Começando com o próximo a última casa e continuar com todos os outros dígitos de voltar para o início do cartão, o dobro do dígito
-2. Soma todos os dígitos dobrados e sem tocar no número. Para dígitos maiores que 9 será necessário dividi-los e somar o independente (ou seja, <code> "10", 1 + 0 </ code>).
+2. Soma todos os dígitos dobrados e sem tocar no número. Para dígitos maiores que 9 será necessário dividi-los e somar o independente (ou seja, <code> "10", 1 + 0 <code>).
 3. Se o mesmo total é um múltiplo de 10, o número é válido.
 
-Por exemplo, dado o número do cartão <code> 4408 0412 3456 7893 </ code>:
+Por exemplo, dado o número do cartão <code>4408 0412 3456 7893<code>:
 
-`` `
+``
 1. 8 4 8 0 0 4 2 2 4 6 10 6 14 8 18 3
 2. 8 + 4 + 0 + 8 + 0 + 4 + 2 + 2 + 6 + 4 + 1 + 0 + 6 + 1 + 4 + 8 + 1 + 8 + 3 = 70
 3. 70% 10 == 0
-`` `
+``
+
 Este cartão é válido.
 
-Vamos tentar mais uma, <code> 4417 1234 5678 9112 </ code>:
+Vamos tentar mais uma, <code>4417 1234 5678 9112<code>:
 
-`` `
+``
 1. 8 4 7 2 2 2 6 4 10 6 14 8 18 1 2 2
 2. 8 + 4 + 2 + 7 + 2 + 2 + 6 + 4 + 1 + 0 + 6 + 1 + 4 + 8 + 1 + 8 + 1 + 2 + 2 = 69
 3. 69% 10! = 0
-`` `
+``
 
 Este cartão é inválido.
 
@@ -113,7 +114,7 @@ Eu esperaria o seguinte resultado:
     MasterCard: 5105105105105106 (inválido)
     Desconhecido: 9111111111111111 (inválido)
 
-### 2) Contando as letras dos números
+### Problema 2: Contando as letras dos números
 
 Se os números de 1 a 5 fossem escritos em palavras: um, dois, três, quatro, cinco, então teríamos utilizado 2 + 4 + 4 + 6 + 5 = 21 letras no total.
 
