@@ -9,20 +9,24 @@ Como nosso próprio nome diz, trabalhamos de forma enxuta e ágil. Isso quer diz
 Atuamos em sinergia com grandes empresas como Centauro, CNova, Walmart e B2W e por isso nossa equipe é formada de profissionais competentes, responsáveis e comprometidos em fazer um trabalho bem feito e com excelência.
 Procuramos criar um ambiente de trabalho de liberdade total para que as equipes busquem a melhora contínua e para isso todos os membros são incentivados a colaborarem entre si, seja ajudando um ao outro em um problema, decidindo sobre o uso de uma nova tecnologia e/ou maneiras de implementar uma nova funcionalidade ou até mesmo novas idéias que possam alavancar os negócios de nossos clientes.
 
-## Quem procuramos?
+# Quem procuramos?
 
-Trabalhamos a maior parte do tempo com tecnologias Microsoft, mas somos ecléticos e não temos nenhum problema em trabalhar com outras tecnologias. Abaixo são as tecnologias e ferramentas que utilizamos no nosso dia-a-dia:
-* C#
-* ASP.NET MVC
-* HTML5, CSS3, JavaScript, jQuery
-* Testes Unitários
-* SQL Server, MongoDB
-* GIT, Team Foundation Source Control, Github, Bitbucket
-* Microsoft Azure, Amazon Web Services
+Trabalhamos a maior parte do tempo com tecnologias Microsoft e adoramos escrever código simples, com testes e usar boas práticas de desenvolvimento de software.
+
+Competências aceitáveis:
+* Escrever código limpo e legível para pessoas
+* Ter conhecimento e experiência em design e arquitetura de software
+* Experiência com C#, ASP.NET (de preferência MVC)
+* Experiência com desenvolvimento WEB (HTML, CSS, Javascript, jQuery, etc)
+
+Competências que gostaríamos que tivesse:
+* Tenha familiaridade com algum versionador de código (TFS, Git, etc)
+* Saber escrever código com testes
+* Conhecimento em banco de dados relacional e não relacional (NoSQL)
 
 Trabalhar com tecnologia é fácil, mas nosso maior desafio é trabalhar com pessoas. Sabemos que ninguém é perfeito, por isso procuramos pessoas com as seguintes atitudes:
 * Seja responsável.
-* Escreva bem e saiba se comunicar bem.
+* Escrever bem e saber se comunicar bem.
 * Tenha facilidade em aprender.
 * Não minta. Mentir sobre seu conhecimento, prazos ou sobre o andamento das atividades não vai funcionar com nosso modo de trabalho.
 * Seja verdadeiro e honesto. Nossos clientes valorizam a transparência que temos com eles e também somos assim entre nós.
@@ -36,7 +40,7 @@ Nossa rotina de trabalho é diferente da maioria das empresas e precisamos que v
 * Temos flexibilidade de horários.
 * Tenha disponibilidade para viagens. Pode ser que um dia você precise ir até a alguns de nossos clientes resolver algum problema ou participar de alguma homologação.
 
-## Ok, quero trabalhar! O que eu faço?
+# Ok, quero trabalhar! O que eu faço?
 
 Como parte do nosso processo para conhecer melhor suas habilidades, queremos que resolva um problema de programação para assim conhecer você melhor. A seguir preparamos dois (03) problemas a serem resolvidos, escolha apenas um (01) deles.
 
@@ -86,8 +90,6 @@ Este cartão é inválido.
 
 Seu objetivo é escrever um programa em C# que valide números de cartão de crédito. Quando o usuário informar um número de cartão, o programa deverá imprimir a resposta no seguinte formato `"TIPO: NÚMEROS (válido/inválido)"`.
 
-#### Entrada e Saída
-
 Tendo em conta os seguintes cartões de crédito:
 
     4111111111111111
@@ -99,7 +101,7 @@ Tendo em conta os seguintes cartões de crédito:
     5105 1051 0510 5106
     9111111111111111
 
-Eu esperaria o seguinte resultado:
+Espera-se o seguinte resultado:
 
     VISA: 4111111111111111 (válido)
     VISA: 4111111111111 (inválido)
@@ -116,6 +118,25 @@ Se os números de 1 a 5 fossem escritos em palavras: um, dois, três, quatro, ci
 
 Seu objetivo é escrever um programa que mostre quantas letras será utilizado para todos os números de 1 até 1000.
 
-### 3) Crawler de páginas
+### Problema 3) Extrair informações de uma página web
+
+Um crawler é um software desenvolvido para realizar uma varredura na internet de maneira sistemática através de informação vista como relevante a sua função. Eles capturam os textos das páginas e cadastram os links encontrados e assim possibilitam encontrar novas páginas. São uma das bases das Search Engines, eles são os responsáveis pela indexação dos sites, armazenando-os na base de dados dos motores de busca.
+
+Seu objetivo é escrever um programa que dada URL da página de um produto de um Ecommerce seja retornado as seguintes informações:
+* Título
+* Descrição (Metatag)
+* Keywords (Metatag)
+* Preço final do produto
+
+Exemplo:
+Ao informar a URL (http://www.extra.com.br/Informatica/EquipamentosdeRedeWireless/Roteadores/Roteador-TP-Link-TL-WR841N-300Mbps-com-2-Antenas-3112344.html) deve ser retornado:
+* Título: Roteador TP-Link TL-WR841N 300Mbps com 2 Antenas - Roteadores no Extra.com.br
+* Descrição: Roteador TP-Link TL-WR841N 300Mbps com 2 Antenas. Confira nossa linha de roteadores TP-Link.
+* Keywords: 3112344, TL-WR841N, Roteador TP-Link TL-WR841N 300Mbps com 2 Antenas, roteador, roteador TP-Link, tplink, TPLINK, informática, acessórios, periféricos, redes, sem fio, Wireless, roteador 2 antenas, 
+* Preço final do prodto: 118,70
+
+Usar como base o site do http://www.extra.com.br/
+
+# Enviando a solução
 
 (texto aqui)
