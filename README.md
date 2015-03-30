@@ -65,30 +65,26 @@ Uma verificação comum é realizar antecipadamente a validação do tipo de car
 Todos esses tipos de cartão podem ser validados pelo algoritmo Luhn, de modo que é o segundo sistemas de verificação normalmente usado. As etapas de verificação são:
 
 1. Começando com o próximo a última casa e continuar com todos os outros dígitos de voltar para o início do cartão, o dobro do dígito
-2. Soma todos os dígitos dobrados e sem tocar no número. Para dígitos maiores que 9 será necessário dividi-los e somar o independente (ou seja, <code> "10", 1 + 0 <code>).
+2. Soma todos os dígitos dobrados e sem tocar no número. Para dígitos maiores que 9 será necessário dividi-los e somar o independente (ou seja, `"10", 1 + 0`).
 3. Se o mesmo total é um múltiplo de 10, o número é válido.
 
-Por exemplo, dado o número do cartão <code>4408 0412 3456 7893<code>:
+Por exemplo, dado o número do cartão `4408 0412 3456 7893`:
 
-``
-1. 8 4 8 0 0 4 2 2 4 6 10 6 14 8 18 3
-2. 8 + 4 + 0 + 8 + 0 + 4 + 2 + 2 + 6 + 4 + 1 + 0 + 6 + 1 + 4 + 8 + 1 + 8 + 3 = 70
-3. 70% 10 == 0
-``
+    1. 8 4 8 0 0 4 2 2 4 6 10 6 14 8 18 3
+    2. 8 + 4 + 0 + 8 + 0 + 4 + 2 + 2 + 6 + 4 + 1 + 0 + 6 + 1 + 4 + 8 + 1 + 8 + 3 = 70
+    3. 70% 10 == 0
 
 Este cartão é válido.
 
 Vamos tentar mais uma, <code>4417 1234 5678 9112<code>:
 
-``
-1. 8 4 7 2 2 2 6 4 10 6 14 8 18 1 2 2
-2. 8 + 4 + 2 + 7 + 2 + 2 + 6 + 4 + 1 + 0 + 6 + 1 + 4 + 8 + 1 + 8 + 1 + 2 + 2 = 69
-3. 69% 10! = 0
-``
+    1. 8 4 7 2 2 2 6 4 10 6 14 8 18 1 2 2
+    2. 8 + 4 + 2 + 7 + 2 + 2 + 6 + 4 + 1 + 0 + 6 + 1 + 4 + 8 + 1 + 8 + 1 + 2 + 2 = 69
+    3. 69% 10! = 0
 
 Este cartão é inválido.
 
-Seu objetivo é escrever um programa em C# que valide números de cartão de crédito. Quando o usuário informar um número de cartão, o programa deverá imprimir a resposta no seguinte formato <code> "TIPO: NÚMEROS (válido/inválido)" </ code>.
+Seu objetivo é escrever um programa em C# que valide números de cartão de crédito. Quando o usuário informar um número de cartão, o programa deverá imprimir a resposta no seguinte formato `"TIPO: NÚMEROS (válido/inválido)"`.
 
 #### Entrada e Saída
 
