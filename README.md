@@ -113,7 +113,7 @@ Se os números de 1 a 5 fossem escritos em palavras: um, dois, três, quatro, ci
 
 Seu objetivo é escrever um programa que mostre quantas letras será utilizado para todos os números de 1 até 1000.
 
-### Problema 3) Extrair informações de uma página web
+### Problema 3: Extrair informações de uma página web
 
 Um crawler é um software desenvolvido para realizar uma varredura na internet de maneira sistemática através de informação vista como relevante a sua função. Eles capturam os textos das páginas e cadastram os links encontrados e assim possibilitam encontrar novas páginas. São uma das bases das Search Engines, eles são os responsáveis pela indexação dos sites, armazenando-os na base de dados dos motores de busca.
 
