@@ -42,13 +42,13 @@ Nossa rotina de trabalho é diferente da maioria das empresas e precisamos que v
 
 # Estou interessado! O que preciso fazer?
 
-Como parte do nosso processo para conhecer melhor suas habilidades, queremos que resolva um problema de programação para assim conhecer você melhor. A seguir preparamos dois (03) problemas a serem resolvidos, escolha apenas um (01) deles.
+Como parte do nosso processo queremos que resolva um problema de programação para assim conhecer você melhor. A seguir preparamos o problema a ser resolvido.
 
-Gostarmos de usar ASP.NET MVC, Git, desenvolver usando TDD e ter uma boa de cobertura de teste de código. Utilizar estas tecnologias e/ou métodos certamente serão pontos positivos a seu favor, apesar de não ser necessário. Fique a vontade para usar bibliotecas de terceiro caso julguem necessário.
+Gostamos de usar ASP.NET MVC, Git, desenvolver usando TDD e ter uma boa de cobertura de teste. Utilizar estas tecnologias e/ou métodos certamente serão pontos positivos a seu favor, apesar de não ser necessário. Fique a vontade para usar bibliotecas de terceiro caso julguem necessário.
 
 Esperamos que você solucione o problema sozinho e por favor não exponha a solução na internet.
 
-### Problema 1: Verificador de cartão de crédito
+### Problema: Verificador de cartão de crédito
 
 Antes de apresentar um cartão de crédito a um gateway de pagamento, é importante que façamos algumas checagens sobre o número.
 
@@ -71,7 +71,7 @@ Por exemplo, dado o número do cartão `4408 0412 3456 7893`:
 
     1. 8 4 8 0 0 4 2 2 4 6 10 6 14 8 18 3
     2. 8 + 4 + 0 + 8 + 0 + 4 + 2 + 2 + 6 + 4 + 1 + 0 + 6 + 1 + 4 + 8 + 1 + 8 + 3 = 70
-    3. 70% 10 == 0
+    3. 70 % 10 == 0
 
 Este cartão é válido.
 
@@ -79,7 +79,7 @@ Vamos tentar mais uma, `4417 1234 5678 9112`:
 
     1. 8 4 7 2 2 2 6 4 10 6 14 8 18 1 2 2
     2. 8 + 4 + 2 + 7 + 2 + 2 + 6 + 4 + 1 + 0 + 6 + 1 + 4 + 8 + 1 + 8 + 1 + 2 + 2 = 69
-    3. 69% 10! = 0
+    3. 69 % 10 != 0
 
 Este cartão é inválido.
 
@@ -106,31 +106,6 @@ Espera-se o seguinte resultado:
     MasterCard: 5105105105105100 (válido)
     MasterCard: 5105105105105106 (inválido)
     Desconhecido: 9111111111111111 (inválido)
-
-### Problema 2: Contando as letras dos números
-
-Se os números de 1 a 5 fossem escritos em palavras: um, dois, três, quatro, cinco, então teríamos utilizado 2 + 4 + 4 + 6 + 5 = 21 letras no total.
-
-Seu objetivo é escrever um programa que mostre quantas letras será utilizado para todos os números de 1 até 1000.
-
-### Problema 3: Extrair informações de uma página web
-
-Um crawler é um software desenvolvido para realizar uma varredura na internet de maneira sistemática através de informação vista como relevante a sua função. Eles capturam os textos das páginas e cadastram os links encontrados e assim possibilitam encontrar novas páginas. São uma das bases das Search Engines, eles são os responsáveis pela indexação dos sites, armazenando-os na base de dados dos motores de busca.
-
-Seu objetivo é escrever um programa que dada URL da página de um produto de um Ecommerce seja retornado as seguintes informações:
-* Título
-* Descrição (Metatag)
-* Keywords (Metatag)
-* Preço final do produto
-
-Exemplo:
-Ao informar a URL (http://www.extra.com.br/Informatica/EquipamentosdeRedeWireless/Roteadores/Roteador-TP-Link-TL-WR841N-300Mbps-com-2-Antenas-3112344.html) deve ser retornado:
-* Título: Roteador TP-Link TL-WR841N 300Mbps com 2 Antenas - Roteadores no Extra.com.br
-* Descrição: Roteador TP-Link TL-WR841N 300Mbps com 2 Antenas. Confira nossa linha de roteadores TP-Link.
-* Keywords: 3112344, TL-WR841N, Roteador TP-Link TL-WR841N 300Mbps com 2 Antenas, roteador, roteador TP-Link, tplink, TPLINK, informática, acessórios, periféricos, redes, sem fio, Wireless, roteador 2 antenas, 
-* Preço final do prodto: 118,70
-
-Usar como base o site do http://www.extra.com.br/
 
 # Enviando a solução
 
