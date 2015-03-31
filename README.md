@@ -57,13 +57,9 @@ Uma verificação comum é realizar antecipadamente a validação do tipo de car
     Tipo de Cartão | começa com | Número Comprimento
     ------------------------------------------------
     AMEX | 34 ou 37 | 15 |
-    ------------------------------------------------
     Discover | 6011 | 16 |
-    ------------------------------------------------
     MasterCard | 51-55 | 16 |
-    ------------------------------------------------
     Visa | 4 | 13 ou 16 |
-    ------------------------------------------------
 
 Todos esses tipos de cartão podem ser validados pelo algoritmo Luhn, de modo que é o segundo sistemas de verificação normalmente usado. As etapas de verificação são:
 
