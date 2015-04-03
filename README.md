@@ -1,8 +1,8 @@
 # Porque trabalhar na Leanwork?
 
-Somos especialistas em desenvolvimento de software WEB customizado e outsourcing com foco em plataformas de ecommerce, integrações e ferramentas inteligentes. 
+Somos especialistas em desenvolvimento de software WEB e outsourcing com foco no área de Ecommerce, construindo plataformas customizadas, integrações entre sistemas e ferramentas inteligentes. 
 
-Somos apaixonados por novas tecnologias e buscamos continuamente aplicar a inovação em nossos produtos. Acreditamos que a tecnologia é um meio para resolvermos os problemas, mas nunca o fim.
+Somos apaixonados por novas tecnologias e buscamos continuamente aplicar a inovação em todo nosso processo de trabalho, seja na gestão, nos projetos, em nossos produtos ou no relacionamento com nossos clientes.
 
 Como nosso próprio nome diz, trabalhamos de forma enxuta e ágil. Isso quer dizer que gostamos de manter nossa equipe pequena para facilitar a comunicação, colaboração, aprendizado e evitar desperdício com processos burocráticos que não agregam valor à empresa ou as nossos clientes.
 
@@ -43,17 +43,17 @@ Nossa rotina de trabalho é diferente da maioria das empresas e precisamos que v
 
 # Estou interessado! O que preciso fazer?
 
-Como parte do nosso processo queremos que resolva um problema de programação para assim conhecer você melhor. A seguir preparamos um desafio a ser resolvido.
+Como parte do nosso processo queremos que resolva um desafio de programação para assim conhecer você melhor.
 
-Gostamos de usar ASP.NET MVC, Git, desenvolver usando TDD e ter uma boa de cobertura de teste. Utilizar estas tecnologias e/ou métodos certamente serão pontos positivos a seu favor, apesar de não ser necessário. Não é permitido o uso de biblioteca de terceiros que auxiliem na resolução do problema, somente biblioteca de testes, caso utilize.
+Gostamos de usar ASP.NET MVC, Git, desenvolver usando TDD e ter uma boa de cobertura de teste. Utilizar estas tecnologias e/ou métodos certamente serão pontos positivos a seu favor, apesar de não ser necessário. Obs: Não é permitido o uso de biblioteca de terceiros que auxiliem na resolução do problema, somente biblioteca de testes, caso utilize.
 
-Esperamos que você solucione o problema sozinho e por favor não exponha a solução na internet.
+Esperamos que você solucione o desafio sozinho.
 
 ### Desafio: Verificador de cartão de crédito
 
-Antes de apresentar um cartão de crédito a um gateway de pagamento, é importante que façamos algumas checagens sobre o número.
+Antes de enviar um cartão de crédito para um gateway de pagamento, é importante que façamos algumas validações sobre o número.
 
-Uma verificação comum é realizar antecipadamente a validação do tipo de cartão com base nos dígitos iniciais e seu comprimento. Os principais padrões que que validamos são os seguintes:
+Uma verificação comum é realizar antecipadamente a validação do tipo de cartão com base nos dígitos iniciais e seu comprimento. Os principais padrões que validamos são os seguintes:
 
 | Tipo de Cartão | começa com | Número Comprimento |
 | -------------- | ---------- | ------------------ |
@@ -62,7 +62,7 @@ Uma verificação comum é realizar antecipadamente a validação do tipo de car
 | MasterCard     | 51-55      | 16                 |
 | Visa           | 4          | 13 ou 16           |
 
-Todos esses tipos de cartão podem ser validados pelo algoritmo Luhn. As etapas de verificação são:
+Todos esses tipos de cartão podem ser validados pelo [algoritmo Luhn](http://en.wikipedia.org/wiki/Luhn_algorithm). As etapas de verificação são:
 
 1. Tome uma sequência de números inteiros positivos e a inverta.
 2. Começando pelo primeiro número, dobre o valor de cada número de forma alternada (`"24145...` = `"442410...`).
@@ -120,6 +120,6 @@ Espera-se o seguinte resultado:
     MasterCard: 5105105105105106 (inválido)
     Desconhecido: 9111111111111111 (inválido)
 
-Após a conclusão do desafio envie um email para `vagas@leanwork.com.br` com o assunto `Solução: verificador de cartão de crédito` e siga as seguintes instruções:
+Após a conclusão do desafio envie um email para [vagas@leanwork.com.br](vagas@leanwork.com.br) com o assunto `Solução: verificador de cartão de crédito` e siga as seguintes instruções:
 * Não envie a solução como anexo. Suba os fontes para o seu Github ou Bitbucket e passe o link. Caso não tenha nenhum desses serviços coloque os fontes em um arquivo .zip e compartilhe pelo seu Dropbox, Google Drive, One Drive, ou algum outro serviço de compartilhamento de arquivo.
 * Envie o link da solução no corpo do email junto com o link do seu perfil no Linkedin. Caso não tenha Linkedin, pode enviar seu CV (Currículo) pelo anexo.
