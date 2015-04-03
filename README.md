@@ -120,6 +120,6 @@ Espera-se o seguinte resultado:
     MasterCard: 5105105105105106 (inválido)
     Desconhecido: 9111111111111111 (inválido)
 
-Após a conclusão do desafio envie um email para [vagas@leanwork.com.br](vagas@leanwork.com.br) com o assunto `Solução: verificador de cartão de crédito` e siga as seguintes instruções:
+Após a conclusão do desafio envie um email para `vagas@leanwork.com.br` com o assunto `Solução: verificador de cartão de crédito` e siga as seguintes instruções:
 * Não envie a solução como anexo. Suba os fontes para o seu Github ou Bitbucket e passe o link. Caso não tenha nenhum desses serviços coloque os fontes em um arquivo .zip e compartilhe pelo seu Dropbox, Google Drive, One Drive, ou algum outro serviço de compartilhamento de arquivo.
 * Envie o link da solução no corpo do email junto com o link do seu perfil no Linkedin. Caso não tenha Linkedin, pode enviar seu CV (Currículo) pelo anexo.
