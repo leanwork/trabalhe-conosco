@@ -66,8 +66,8 @@ Todos esses tipos de cartão podem ser validados pelo [algoritmo Luhn](http://en
 
 1. Tome uma sequência de números inteiros positivos e a inverta.
 2. Começando pelo primeiro número, dobre o valor de cada número de forma alternada (`"24145...` = `"442410...`).
-3. Para dígitos maiores que 9 será necessário some cada dígito (`"10", 1 + 0 = 1`) ou subtraia por 9 (`"10", 10 - 9 = 1`).
-4. Some todos os números.
+3. Para dígitos maiores que 9 será necessário que some cada dígito (`"10", 1 + 0 = 1`) ou subtraia por 9 (`"10", 10 - 9 = 1`).
+4. Some todos os números da sequência.
 3. Se o total for múltiplo de 10, o número é válido.
 
 Por exemplo, dado o número do cartão `4408 0412 3456 7893`:
@@ -81,7 +81,7 @@ Por exemplo, dado o número do cartão `4408 0412 3456 7893`:
     6 + 9 + 7 + 7 + 3 + 5 + 8 + 3 + 4 + 1 + 8 +0 + 7 + 0 + 8 + 4 = 80
     80 % 10 == 0
 
-Este cartão é VÁLIDO.
+Este cartão é `VÁLIDO`.
 
 Vamos tentar mais uma, `4417 1234 5678 9112`:
 
@@ -94,7 +94,7 @@ Vamos tentar mais uma, `4417 1234 5678 9112`:
     4 + 1 + 2 + 9 + 7 + 7 + 3 + 5 + 8 + 3 + 4 + 1 + 5 + 1 + 8 + 4 = 72
     72 % 10 != 0
 
-Este cartão é INVÁLIDO.
+Este cartão é `INVÁLIDO`.
 
 Seu objetivo é escrever um programa em C# que valide números de cartão de crédito. Quando o usuário informar um número de cartão, o programa deverá imprimir a resposta no seguinte formato `"TIPO: NÚMEROS (válido/inválido)"`.
 
