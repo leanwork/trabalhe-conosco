@@ -44,7 +44,7 @@ Nossa rotina de trabalho é diferente da maioria das empresas e precisamos que v
 
 Como parte do nosso processo queremos que resolva um problema de programação para assim conhecer você melhor. A seguir preparamos o problema a ser resolvido.
 
-Gostamos de usar ASP.NET MVC, Git, desenvolver usando TDD e ter uma boa de cobertura de teste. Utilizar estas tecnologias e/ou métodos certamente serão pontos positivos a seu favor, apesar de não ser necessário. Fique a vontade para usar bibliotecas de terceiro caso julguem necessário.
+Gostamos de usar ASP.NET MVC, Git, desenvolver usando TDD e ter uma boa de cobertura de teste. Utilizar estas tecnologias e/ou métodos certamente serão pontos positivos a seu favor, apesar de não ser necessário. Não é permitido o uso de biblioteca de terceiros que auxiliem na resolução do problema, somente biblioteca de testes se for utilizar.
 
 Esperamos que você solucione o problema sozinho e por favor não exponha a solução na internet.
 
@@ -61,27 +61,39 @@ Uma verificação comum é realizar antecipadamente a validação do tipo de car
 | MasterCard     | 51-55      | 16                 |
 | Visa           | 4          | 13 ou 16           |
 
-Todos esses tipos de cartão podem ser validados pelo algoritmo Luhn, de modo que é o segundo sistemas de verificação normalmente usado. As etapas de verificação são:
+Todos esses tipos de cartão podem ser validados pelo algoritmo Luhn. As etapas de verificação são:
 
-1. Começando com o próximo a última casa e continuar com todos os outros dígitos de voltar para o início do cartão, o dobro do dígito
-2. Soma todos os dígitos dobrados e sem tocar no número. Para dígitos maiores que 9 será necessário dividi-los e somar o independente (ou seja, `"10", 1 + 0`).
-3. Se o mesmo total é um múltiplo de 10, o número é válido.
+1. Tome uma sequência de números inteiros positivos e a inverta.
+2. 
+3. Para dígitos maiores que 9 será necessário some cada dígito (`"10", 1 + 0 = 1`) ou subtraia por 9 (`"10", 10 - 9 = 1`).
+4. Some todos os números.
+3. Se o total for múltiplo de 10, o número é válido.
 
 Por exemplo, dado o número do cartão `4408 0412 3456 7893`:
 
-    1. 8 4 8 0 0 4 2 2 4 6 10 6 14 8 18 3
-    2. 8 + 4 + 0 + 8 + 0 + 4 + 2 + 2 + 6 + 4 + 1 + 0 + 6 + 1 + 4 + 8 + 1 + 8 + 3 = 70
-    3. 70 % 10 == 0
+| 4 | 4 | 0  | 8 | 0  | 4 | 1 | 2 | 3 | 4 | 5 | 6 | 7  | 8 | 9 | 3 |
+|---|---|----|---|----|---|---|---|---|---|---|---|----|---|---|---|
+| 3 | 9 | 8  | 7 | 6  | 5 | 4 | 3 | 2 | 1 | 4 | 0 | 8  | 0 | 4 | 4 |
+| 6 | 9 | 16 | 7 | 12 | 5 | 8 | 3 | 4 | 1 | 8 | 0 | 16 | 0 | 8 | 4 |
+| 6 | 9 | 7  | 7 | 3  | 5 | 8 | 3 | 4 | 1 | 8 | 0 | 7  | 0 | 8 | 4 |
 
-Este cartão é válido.
+    6 + 9 + 7 + 7 + 3 + 5 + 8 + 3 + 4 + 1 + 8 +0 + 7 + 0 + 8 + 4 = 80
+    80 % 10 == 0
+
+Este cartão é VÁLIDO.
 
 Vamos tentar mais uma, `4417 1234 5678 9112`:
 
-    1. 8 4 7 2 2 2 6 4 10 6 14 8 18 1 2 2
-    2. 8 + 4 + 2 + 7 + 2 + 2 + 6 + 4 + 1 + 0 + 6 + 1 + 4 + 8 + 1 + 8 + 1 + 2 + 2 = 69
-    3. 69 % 10 != 0
+| 4 | 4 | 1 | 7 | 1  | 2 | 3  | 4 | 5 | 6 | 7 | 8 | 9  | 1 | 1 | 2 |
+|---|---|---|---|----|---|----|---|---|---|---|---|----|---|---|---|
+| 2 | 1 | 1 | 9 | 8  | 7 | 6  | 5 | 4 | 3 | 2 | 1 | 7  | 1 | 4 | 4 |
+| 4 | 1 | 2 | 9 | 16 | 7 | 12 | 5 | 8 | 3 | 4 | 1 | 14 | 1 | 8 | 4 |
+| 4 | 1 | 2 | 9 | 7  | 7 | 3  | 5 | 8 | 3 | 4 | 1 | 5  | 1 | 8 | 4 |
 
-Este cartão é inválido.
+    4 + 1 + 2 + 9 + 7 + 7 + 3 + 5 + 8 + 3 + 4 + 1 + 5 + 1 + 8 + 4 = 72
+    72 % 10 != 0
+
+Este cartão é INVÁLIDO.
 
 Seu objetivo é escrever um programa em C# que valide números de cartão de crédito. Quando o usuário informar um número de cartão, o programa deverá imprimir a resposta no seguinte formato `"TIPO: NÚMEROS (válido/inválido)"`.
 
