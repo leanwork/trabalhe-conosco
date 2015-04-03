@@ -13,20 +13,21 @@ Procuramos criar um ambiente de trabalho de liberdade total para que as equipes 
 
 Trabalhamos a maior parte do tempo com tecnologias Microsoft e adoramos escrever código simples, com testes e usar boas práticas de desenvolvimento de software.
 
-Competências aceitáveis:
+Competências obrigatórias:
 * Escrever código limpo e legível para pessoas
-* Ter conhecimento e experiência em design e arquitetura de software
 * Experiência com C#, ASP.NET (de preferência MVC)
 * Experiência com desenvolvimento WEB (HTML, CSS, Javascript, jQuery, etc)
+* Experiência com banco de dados relacional (MSSQL ou MySQL)
 
 Competências que gostaríamos que tivesse:
+* Ter conhecimento e experiência em design e arquitetura de software
 * Tenha familiaridade com algum versionador de código (TFS, Git, etc)
 * Saber escrever código com testes
-* Conhecimento em banco de dados relacional e não relacional (NoSQL)
+* Conhecimento em banco de dados não relacional (NoSQL)
 
 Trabalhar com tecnologia é fácil, mas nosso maior desafio é trabalhar com pessoas. Sabemos que ninguém é perfeito, por isso procuramos pessoas com as seguintes atitudes:
 * Seja responsável.
-* Escrever bem e saber se comunicar bem.
+* Escrever bem e saber se comunicar.
 * Tenha facilidade em aprender.
 * Não minta. Mentir sobre seu conhecimento, prazos ou sobre o andamento das atividades não vai funcionar com nosso modo de trabalho.
 * Seja verdadeiro e honesto. Nossos clientes valorizam a transparência que temos com eles e também somos assim entre nós.
