@@ -25,7 +25,7 @@ Competências que gostaríamos que tivesse:
 * Saber escrever código com testes
 * Conhecimento em banco de dados não relacional (NoSQL)
 
-Trabalhar com tecnologia é fácil, mas nosso maior desafio é trabalhar com pessoas. Sabemos que ninguém é perfeito, por isso procuramos pessoas com as seguintes atitudes:
+Trabalhar com tecnologia é fácil, mas nosso maior desafio é trabalhar com pessoas. Sabemos que ninguém é perfeito, por isso procuramos profissionais com as seguintes atitudes:
 * Seja responsável.
 * Escrever bem e saber se comunicar.
 * Tenha facilidade em aprender.
