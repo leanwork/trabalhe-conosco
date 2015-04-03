@@ -42,13 +42,13 @@ Nossa rotina de trabalho é diferente da maioria das empresas e precisamos que v
 
 # Estou interessado! O que preciso fazer?
 
-Como parte do nosso processo queremos que resolva um problema de programação para assim conhecer você melhor. A seguir preparamos o problema a ser resolvido.
+Como parte do nosso processo queremos que resolva um problema de programação para assim conhecer você melhor. A seguir preparamos um desafio a ser resolvido.
 
 Gostamos de usar ASP.NET MVC, Git, desenvolver usando TDD e ter uma boa de cobertura de teste. Utilizar estas tecnologias e/ou métodos certamente serão pontos positivos a seu favor, apesar de não ser necessário. Não é permitido o uso de biblioteca de terceiros que auxiliem na resolução do problema, somente biblioteca de testes se for utilizar.
 
 Esperamos que você solucione o problema sozinho e por favor não exponha a solução na internet.
 
-### Problema: Verificador de cartão de crédito
+### Desafio: Verificador de cartão de crédito
 
 Antes de apresentar um cartão de crédito a um gateway de pagamento, é importante que façamos algumas checagens sobre o número.
 
@@ -64,7 +64,7 @@ Uma verificação comum é realizar antecipadamente a validação do tipo de car
 Todos esses tipos de cartão podem ser validados pelo algoritmo Luhn. As etapas de verificação são:
 
 1. Tome uma sequência de números inteiros positivos e a inverta.
-2. 
+2. Começando pelo primeiro número, dobre o valor de cada número de forma alternada (`"24145...` = `"442410...`).
 3. Para dígitos maiores que 9 será necessário some cada dígito (`"10", 1 + 0 = 1`) ou subtraia por 9 (`"10", 10 - 9 = 1`).
 4. Some todos os números.
 3. Se o total for múltiplo de 10, o número é válido.
@@ -97,7 +97,7 @@ Este cartão é INVÁLIDO.
 
 Seu objetivo é escrever um programa em C# que valide números de cartão de crédito. Quando o usuário informar um número de cartão, o programa deverá imprimir a resposta no seguinte formato `"TIPO: NÚMEROS (válido/inválido)"`.
 
-Tendo em conta os seguintes cartões de crédito:
+Para os seguintes cartões de crédito:
 
     4111111111111111
     4111111111111
@@ -119,6 +119,6 @@ Espera-se o seguinte resultado:
     MasterCard: 5105105105105106 (inválido)
     Desconhecido: 9111111111111111 (inválido)
 
-# Enviando a solução
-
-(texto aqui)
+Após a conclusão do desafio envie um email para `vagas@leanwork.com.br` com o assunto `Solução: verificador de cartão de crédito` e siga as seguintes instruções:
+* Não envie a solução como anexo. Suba os fontes para o seu Github ou Bitbucket e passe o link. Caso não tenha nenhum desses serviços coloque os fontes em um arquivo .zip e compartilhe pelo seu Dropbox, Google Drive, One Drive, ou algum outro serviço de compartilhamento de arquivo.
+* Envie o link da solução no corpo do email junto com o link do seu perfil no Linkedin. Caso não tenha Linkedin, pode enviar seu CV (Currículo) pelo anexo.
