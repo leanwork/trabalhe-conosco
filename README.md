@@ -1,3 +1,7 @@
+# Vagas disponíveis
+
+No momento NÃO temos nenhuma vaga em aberto :(
+
 # Porque trabalhar na Leanwork?
 
 Somos especialistas em desenvolvimento de software WEB e outsourcing com foco no área de Ecommerce, construindo plataformas customizadas, integrações entre sistemas e ferramentas inteligentes. 
