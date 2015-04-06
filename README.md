@@ -19,6 +19,7 @@ Trabalhamos a maior parte do tempo com tecnologias Microsoft e adoramos escrever
 
 Competências obrigatórias:
 * Escrever código limpo e legível para pessoas
+* Conhecimentos sólidos em OOP
 * Experiência com C#, ASP.NET (de preferência MVC)
 * Experiência com desenvolvimento WEB (HTML, CSS, Javascript, jQuery, etc)
 * Experiência com banco de dados relacional (MSSQL ou MySQL)
