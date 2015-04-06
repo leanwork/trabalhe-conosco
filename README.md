@@ -50,7 +50,7 @@ Nossa rotina de trabalho é diferente da maioria das empresas e precisamos que v
 
 Como parte do nosso processo queremos que resolva um desafio de programação para assim conhecer você melhor.
 
-Gostamos de usar ASP.NET MVC, Git, desenvolver usando TDD e ter uma boa de cobertura de teste. Utilizar estas tecnologias e/ou métodos certamente serão pontos positivos a seu favor, apesar de não ser necessário. Obs: Não é permitido o uso de biblioteca de terceiros que auxiliem na resolução do problema, somente biblioteca de testes, caso utilize.
+Gostamos de usar ASP.NET MVC, Git, desenvolver usando TDD e ter uma boa cobertura de teste. Utilizar estas tecnologias e/ou métodos certamente serão pontos positivos a seu favor, apesar de não ser necessário. Obs: Não é permitido o uso de biblioteca de terceiros que auxiliem na resolução do problema, somente biblioteca de testes, caso utilize.
 
 Esperamos que você solucione o desafio sozinho.
 
