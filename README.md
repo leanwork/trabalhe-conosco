@@ -1,6 +1,7 @@
 # Vagas disponíveis
 
-No momento NÃO temos nenhuma vaga em aberto :(
+* Desenvolvedor ASP.NET MVC (BACK-END)
+* Desenvolvedor ASP.NET MVC (FULL STACK)
 
 # Porque trabalhar na Leanwork?
 
