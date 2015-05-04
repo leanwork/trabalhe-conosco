@@ -3,6 +3,8 @@
 * Desenvolvedor ASP.NET MVC (BACK-END)
 * Desenvolvedor ASP.NET MVC (FULL STACK)
 
+Observação: Apesar de home-office, o candidato deve residir em Londrina/PR.
+
 # Porque trabalhar na Leanwork?
 
 Somos especialistas em desenvolvimento de software WEB e outsourcing com foco no área de Ecommerce, construindo plataformas customizadas, integrações entre sistemas e ferramentas inteligentes. 
