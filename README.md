@@ -38,7 +38,7 @@ Trabalhar com tecnologia é fácil, mas nosso maior desafio é trabalhar com pes
 * Escrever bem e saber se comunicar.
 * Tenha facilidade em aprender.
 * Não minta. Mentir sobre seu conhecimento, prazos ou sobre o andamento das atividades não vai funcionar com nosso modo de trabalho.
-* Seja verdadeiro e honesto. Nossos clientes valorizam a transparência que temos com eles e também somos assim entre nós.
+* Seja verdadeiro e sincero. Nossos clientes valorizam a transparência que temos com eles e também somos assim entre nós.
 * Tenha senso crítico para questionar decisões.
 * Saiba se virar e não tenha medo de perguntar.
 * Tenha atitudes positivas, sempre. Somos pagos para resolver problemas e não criar novos. A frase "é impossível fazer isso" só é dita até que se prove o contrário.
