@@ -1,7 +1,6 @@
 # Vagas disponíveis
 
-* Desenvolvedor ASP.NET MVC (BACK-END)
-* Desenvolvedor ASP.NET MVC (FULL STACK)
+* Sem vagas no momento
 
 Observação: Apesar de home-office, o candidato deve residir em Londrina/PR.
 
