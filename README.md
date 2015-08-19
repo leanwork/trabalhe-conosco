@@ -1,7 +1,7 @@
 # Vagas disponíveis
 
-* Desenvolver ASP.NET MVC
-* Desenvolver Front End
+* Desenvolvedor ASP.NET MVC
+* Desenvolvedor Front End
 
 Observação: Apesar de home-office, o candidato deve residir em Londrina/PR.
 
