@@ -123,7 +123,7 @@ Espera-se o seguinte resultado:
     VISA: 4111111111111 (inválido)
     VISA: 4012888888881881 (válido)
     AMEX: 378282246310005 (válido)
-    Descubra: 6011111111111117 (válido)
+    Discover: 6011111111111117 (válido)
     MasterCard: 5105105105105100 (válido)
     MasterCard: 5105105105105106 (inválido)
     Desconhecido: 9111111111111111 (inválido)
