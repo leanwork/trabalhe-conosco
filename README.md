@@ -1,7 +1,6 @@
 # Vagas disponíveis
 
-* Desenvolvedor iOS
-* Desenvolvedor Android
+* Sem vagas no momento, volte mais tarde ;)
 
 Observação: Apesar de home-office, o candidato deve residir em Londrina/PR.
 
