@@ -12,7 +12,7 @@ Somos apaixonados por novas tecnologias e buscamos continuamente aplicar a inova
 
 Como nosso próprio nome diz, trabalhamos de forma enxuta e ágil. Isso quer dizer que gostamos de manter nossa equipe pequena para facilitar a comunicação, colaboração, aprendizado e evitar desperdício com processos burocráticos que não agregam valor à empresa ou as nossos clientes.
 
-Atuamos em sinergia com grandes empresas como Centauro, CNova e Avalia Educacional e por isso nossa equipe é formada de profissionais competentes, responsáveis e comprometidos em fazer um trabalho bem feito e com excelência.
+Atuamos em sinergia com grandes empresas como Centauro, Avalia Educacional, Netfarma, mFacility entre outras e por isso nossa equipe é formada de profissionais competentes, responsáveis e comprometidos em fazer um trabalho bem feito e com excelência.
 Procuramos criar um ambiente de trabalho de liberdade total para que as equipes busquem a melhora contínua e para isso todos os membros são incentivados a colaborarem entre si, seja ajudando um ao outro em um problema, decidindo sobre o uso de uma nova tecnologia e/ou maneiras de implementar uma nova funcionalidade ou até mesmo novas idéias que possam alavancar os negócios de nossos clientes.
 
 # Quem procuramos?
